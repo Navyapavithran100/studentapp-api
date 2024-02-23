@@ -90,6 +90,7 @@ app.post("/student", (req, res) => {
             res.json("Error:" + err);
         });
 })
+ //put function
 
 app.listen("4000", () => {
     console.log("started server on 4000");
